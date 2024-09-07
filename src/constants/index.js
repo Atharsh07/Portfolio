@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FullStack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Threat Intelligence",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "DATA Analytics",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Backend Developer",
     icon: creator,
   },
 ];
@@ -116,91 +116,64 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Pentesting",
+    company_name: "App/web",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducting penetration testing on web and mobile applications within local projects using virtual machines (VMs) and various pentesting tools.",
+      "Collaborating with cross-functional teams including developers, security analysts, and product managers to ensure robust application security.",
+      "Identifying and addressing vulnerabilities in applications, ensuring secure implementation while maintaining functionality.",
+      "Participating in security audits, code reviews, and providing detailed reports and feedback on security issues.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "FullStack Development",
+    company_name: "LocalProjects",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining full stack web applications using technologies such as React.js, Node.js, Express, and MongoDB.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality, scalable products.",
+      "Deploying applications on Vercel and other platforms, ensuring smooth CI/CD processes.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "BlockChain Development",
+    company_name: "SmartContracts/NFTs",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining blockchain applications, including smart contracts using Solidity and Ethereum pipelines.",
+      "Collaborating with cross-functional teams including designers, product managers, and developers to deliver high-quality decentralized solutions.",
+      "Implementing secure and efficient smart contracts, integrating NFT functionalities, and ensuring seamless interactions with blockchain networks.",
+      "Managing CI/CD pipelines and employing DevOps practices for the continuous deployment of blockchain applications.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Data Analytics",
+    company_name: "Big Data / Analytics",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining data analytics solutions, utilizing technologies such as Python, R, SQL, and big data frameworks.",
+      "Collaborating with cross-functional teams including data scientists, business analysts, and product managers to deliver data-driven insights.",
+      "Ensuring data accuracy and integrity across multiple sources while optimizing for performance and scalability.",
+      "Implementing data visualization, reporting tools, and statistical models to analyze trends and improve decision-making.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Boardy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to collabarate with other users and do tasks like notes creating, design with different shapes and also real time approch from both users.",
     tags: [
       {
         name: "react",
@@ -216,50 +189,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Atharsh07/Boardy-2024",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
